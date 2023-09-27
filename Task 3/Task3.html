@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #6495ED;
+            overflow: hidden;
+            padding: 10px 10px; /* Adding padding for spacing at the top and bottom */
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 20px; /* Adding padding for spacing on the left and right */
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s; /* Adding a smooth transition effect */
+            margin-left: 5px;
+        }
+
+        /* ID selectors for different border styles */
+        #item1 {
+            border-style: solid;
+            border-width: 2px;
+            border-color: #33FF57;
+        }
+
+        #item2 {
+            border-style: dashed;
+            border-width: 2px;
+            border-color: #F8C42E;
+        }
+
+        #item3 {
+            border-style: double;
+            border-width: 2px;
+            border-color: #33FF57;
+        }
+
+        #item4 {
+            border-style: dotted;
+            border-width: 2px;
+            border-color: #F8C42E;
+        }
+
+        #item5 {
+            border-style: groove;
+            border-width: 2px;
+            border-color: #33FF57;
+        }
+
+        .navbar a:hover {
+            background-color: #fff;
+            color: #6495ED;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home" id="item1">Home</a>
+        <a href="#about" id="item2">About Us</a>
+        <a href="#contact" id="item3">Contact</a>
+        <a href="#blog" id="item4">Blog</a>
+        <a href="#login" id="item5">Login</a>
+    </div>
+
+    <!-- Your content goes here -->
+
+</body>
+</html>
