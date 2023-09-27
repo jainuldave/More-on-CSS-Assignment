@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .circular-image {
+            width: 750px; /* Set the width of the circular container */
+            height: 750px; /* Set the height of the circular container */
+            border-radius: 50%; /* Make the container circular */
+            overflow: hidden; /* Hide overflowing parts (corners) of the circular container */
+            margin: 0 auto; /* Center the container horizontally */
+            display: flex;
+            justify-content: center; /* Center the image horizontally within the container */
+            align-items: center; /* Center the image vertically within the container */
+            border: solid 2px black ;
+        
+        }
+
+        .circular-image img {
+            max-width: 100%; /* Ensure the image doesn't exceed the container */
+            max-height: 100%; /* Ensure the image doesn't exceed the container */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Circular Image</h1>
+        <div class="circular-image">
+            <img src="./Emoji.jpg" alt="Circular Image">
+        </div>
+    </div>
+</body>
+</html>
